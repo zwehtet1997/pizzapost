@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="shortcut icon" href="Image/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <!-- Google Fonts CDN Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Nunito:wght@500&family=Signika+Negative:wght@700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <!-- Sweet Alert CDN Link -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+    <section id="nav-bar">
+        <img src="Image/logo.png" width="90px" height="90px">
+        <h3>Pizza <br> <a id="mini-text">Post</a></h3>
+            <a href="">Sign Out</a>
+            <a href="">Pizza Order</a>
+            <a href="">Sign In</a>
+            <a href="">Sign Up</a>
+            <a href="#contact-us">Contact Us</a>
+            <a href="">Home Page</a>
+    </section>
+
+    <section id="welcome">
+        <img src="Image/wel_pic1.jpg">
+        <div>
+            <h1>Welcome To Our Shop</h1>
+            <p style="text-align: justify; font-family: 'Nunito', sans-serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia non distinctio alias debitis, rerum maiores magni nam officia aspernatur maxime dignissimos odio ipsum ea ex blanditiis amet consequatur quis aperiam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit harum voluptas earum at nemo blanditiis velit dolores nisi expedita! Unde modi ab quo odit quibusdam! Ullam saepe debitis numquam unde.</p>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <h1>About Us</h1>
+        <div id="img-about">
+            <img src="Image/pizza_img.jpg">
+        </div>
+        <div id="about-text">
+            <a id="about-intro">Pizza Things</a>
+            <h2>Most Effective Creative Service Provider For Customer</h2>
+            <p>Eirmod est dolor nonumy sea amet dolore erat sit dolor et dolor vero. Tempor ipsum at justo amet at ipsum justo. Aiam kasd sea sit dolor duo elitr dolor amet, justo est ipsum amet dolor ut ipsum. Labore diam et nonumy amet dolores. Volup sit labore dolores erat, magna justo sed lorem kasd ea dolor. Labore sit clita invidunt, est dolores lorem sed ipsum kasd no amet ipsum.</p>
+            <a href="" id="about-read">Read More</a>
+        </div>
+    </section>
+
+    <section id="contact-us">
+        <h1>Contact Us</h1>
+            <table width="44%" align="center">
+                <tr>
+                    <td>Full Name : </td>
+                    <td>Comment : </td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="John Smith"></td>
+                    <td rowspan="4"><textarea cols="25" rows="5" placeholder="Good Services and Pizza also best!"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                </tr>
+                <tr>
+                    <td><input type="Email" placeholder="JohnSmith@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Contact" onclick='swal("Thanks!", "Comment Successfully Delivered!", "success");'></td>
+                </tr>
+            </table>
+        <div id="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2549.0755633054105!2d96.17092193237677!3d16.811571022289467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ecb6e32dddc5%3A0x4ada44a13abf5acf!2sOcean%20Super%20Center!5e0!3m2!1sen!2smm!4v1657283165215!5m2!1sen!2smm" width="450" height="300" style="border: 0; border-radius: 50px; box-shadow: 1px 1px 5px black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="contact-address">
+            <table>
+            <caption><h3 style="font-family: 'Signika Negative', sans-serif;">Shop Location</h3></caption>
+                <tr>
+                    <td>Shop Address: </td>
+                    <td>Shwe Gone Dai Rd and Banyardala Rd, Ocean Super Center, 1st Floor near elavator, Yangon</td>
+                </tr>
+                <tr>
+                    <td>Open Day: </td>
+                    <td>9am to 8pm (Every Day)</td>
+                </tr>
+                <tr>
+                    <td>Website: </td>
+                    <td>www.pizzapost.com</td>
+                </tr>
+                <tr>
+                    <td>Phone: </td>
+                    <td>09364387211</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="pizza-display">
+        <div>
+            <img src="Image/pizza_img.jpg" width="150px" height="150px"> 
+            <table>
+                <tr>
+                    <td>Pizza: </td>
+                    <td>Chicken Mushroom Pizza</td>
+                </tr>
+                <tr>
+                    <td>Size: </td>
+                    <td>S / M / L</td>
+                </tr>
+                <tr>
+                    <td>Price: </td>
+                    <td>8000 / 10000 / 12000</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="Make Order"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
